@@ -1,0 +1,5 @@
+# 统一换行符，避免 Windows 上提交出 CRLF 噪音
+* text=auto eol=lf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary

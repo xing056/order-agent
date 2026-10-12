@@ -1,0 +1,18 @@
+# ---------- 密钥：绝不上传 ----------
+.env
+*.env
+!.env.example
+
+# ---------- 运行时产物 ----------
+data/*.db
+data/*.db-journal
+data/kb_vectors.json
+__pycache__/
+*.py[cod]
+
+# ---------- 环境与编辑器 ----------
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
